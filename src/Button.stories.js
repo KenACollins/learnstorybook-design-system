@@ -12,6 +12,7 @@ const CustomButton = styled.button`
   font-size: 1.2em;
 `;
 
+// When the user clicks a button, it will trigger the action() and be displayed in actions addon panel.
 function ButtonWrapper(props) {
   return <CustomButton {...props} />;
 }
